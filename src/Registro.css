@@ -1,0 +1,15 @@
+.conteiner{
+    background-color: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+img{
+    width: 20%;
+}
+.linkedin{
+    object-fit: cover;
+}
