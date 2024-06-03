@@ -5,19 +5,20 @@ function SocialButton({ facebookIcon, githubIcon, linkedinIcon }) {
     return (
         <>
             <div>
-                <h1>Crea una Cuenta</h1>
+                <h2>Crea una Cuenta</h2>
             </div>
-            <div>
-                <div>
-                    <h2>  <FontAwesomeIcon icon={facebookIcon} /> </h2>
+            <div className='social'>
+                <div className='socialicon'>
+                    <h3>  <FontAwesomeIcon icon={facebookIcon} /> </h3>
                 </div>
-                <div>
-                    <h2>  <FontAwesomeIcon icon={githubIcon} /> </h2>
+                <div className='socialicon'>
+                    <h3>  <FontAwesomeIcon icon={githubIcon} /> </h3>
                 </div>
-                <div>
-                    <h2>  <FontAwesomeIcon icon={linkedinIcon} /> </h2>
+                <div className='socialicon'>
+                    <h3>  <FontAwesomeIcon icon={linkedinIcon} /> </h3>
                 </div>
             </div>
+            <div><p>O usa tu mail para registrarte</p></div>
         </>
     );
 }

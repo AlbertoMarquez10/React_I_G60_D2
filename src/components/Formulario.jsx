@@ -54,6 +54,7 @@ function Formulario() {
 
           <div className="campos">
             <input
+              placeholder="Contraseña"
               type="password"
               className="Form-Control"
               onChange={(e) => setContrasena(e.target.value)}

@@ -8,7 +8,7 @@ import SocialButton from './SocialButton'
 
 function Registro() {
     return (
-        <div>
+        <div className='registro'>
             
      <SocialButton
      facebookIcon={faFacebook}
